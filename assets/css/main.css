@@ -3880,3 +3880,25 @@ input, select, textarea {
 		}
 
 	}
+
+#language-switcher {
+    position: absolute; /* Allows it to float in the desired position */
+    top: 20px;         /* Adjust this value to position it vertically */
+    right: 0px;       /* Adjust this value to position it horizontally */
+    z-index: 1000;     /* Make sure it appears above other content */
+}
+
+.lang-button {
+    background-color: transparent; /* Transparent background */
+    color: white !important; /* Asegura que el texto sea blanco */
+    border: none; /* Eliminar el borde */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+    padding: 1px 1px; /* Elimina el padding completamente */
+    cursor: pointer; /* Cursor de puntero al pasar el mouse */
+    font-size: 9px; /* Tamaño de fuente más pequeño */
+    transition: background-color 0.3s, color 0.3s;
+}
+.lang-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo ligero al pasar el mouse para visibilidad */
+    color: white !important; /* Mantener el color de texto blanco al pasar el mouse */
+}
