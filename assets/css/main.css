@@ -3884,7 +3884,7 @@ input, select, textarea {
 #language-switcher {
     position: absolute; /* Allows it to float in the desired position */
     top: 20px;         /* Adjust this value to position it vertically */
-    right: 0px;       /* Adjust this value to position it horizontally */
+    left: 20px;       /* Adjust this value to position it horizontally */
     z-index: 1000;     /* Make sure it appears above other content */
 }
 
